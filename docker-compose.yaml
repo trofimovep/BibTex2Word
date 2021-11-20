@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  back:
+    build: ./back/textoword
+    ports:
+      - "8081:8081"
+  web:
+    build: ./front
+    ports:
+      - "8080:8080"
