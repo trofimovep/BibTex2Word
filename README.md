@@ -1,4 +1,4 @@
-#BibTex2Word
+# BibTex2Word
 
 This a program which transform the `bibtex` references to `word` references.
 
