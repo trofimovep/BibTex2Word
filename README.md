@@ -6,14 +6,13 @@ This a program which transform the `bibtex` references to `word` references.
 
 The input format 
 ```tex
-@article{shmyrin2016note,
-	title={A Note on Heuristic Analog of Cline’s Formula},
-	author={Shmyrin, A.M. and Mishachev, N. M. and Trofimov, E.P.},
-	journal={Global Journal of Pure and Applied Mathematics},
-	volume={12},
-	number={4},
-	pages={3401--3405},
-	year={2016}
+@inproceedings{shmyrin2018neighborhood,
+	title={Neighborhood systems priority identification and randomized Kaczmarz algorithm},
+	author={Shmyrin, AM and Mishachev, NM and Trofimov, EP},
+	booktitle={2018 International Russian Automation Conference (RusAutoCon)},
+	pages={1--4},
+	year={2018},
+	organization={IEEE}
 }
 ```
 will transform to 
