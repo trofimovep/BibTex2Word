@@ -33,15 +33,13 @@ export default {
     PrismEditor,
   },
   data: () => ({
-    bibItem: "@article{knuth:1984,\n" +
-        "  title={Literate Programming},\n" +
-        "  author={Donald E. Knuth},\n" +
-        "  journal={The Computer Journal},\n" +
-        "  volume={27},\n" +
-        "  number={2},\n" +
-        "  pages={97--111},\n" +
-        "  year={1984},\n" +
-        "  publisher={Oxford University Press}\n" +
+    bibItem: "@inproceedings{shmyrin2018neighborhood,\n" +
+        "\ttitle={Neighborhood systems priority identification and randomized Kaczmarz algorithm},\n" +
+        "\tauthor={Shmyrin, AM and Mishachev, NM and Trofimov, EP},\n" +
+        "\tbooktitle={2018 International Russian Automation Conference (RusAutoCon)},\n" +
+        "\tpages={1--4},\n" +
+        "\tyear={2018},\n" +
+        "\torganization={IEEE}\n" +
         "}",
     word: "1. Shmyrin A. M., Mishachev N. M., Trofimov E. P. (2018) Neighborhood systems priority identification and " +
         "randomized Kaczmarz algorithm. Int. Russian Automation Conf. (RusAutoCon) (Sochi Russia), pp 1-4"
